@@ -1,0 +1,13 @@
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_not-found/page.js")
+R.c("server/chunks/ssr/[root-of-the-server]__5de379c5._.js")
+R.c("server/chunks/ssr/e2cbd_next_dist_f28be899._.js")
+R.c("server/chunks/ssr/e2cbd_next_dist_cc7e0ae0._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__90982f9f._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__1afe32cd._.js")
+R.c("server/chunks/ssr/e2cbd_next_dist_970489bb._.js")
+R.c("server/chunks/ssr/e2cbd_c599d816._.js")
+R.c("server/chunks/ssr/e2cbd_next_dist_client_components_6e5b0ba8._.js")
+R.c("server/chunks/ssr/e2cbd_next_dist_client_components_builtin_forbidden_4f5e558b.js")
+R.c("server/chunks/ssr/7889e_cyberSecurityQuiz__next-internal_server_app__not-found_page_actions_3ece3653.js")
+R.m(21258)
+module.exports=R.m(21258).exports

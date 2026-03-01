@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/Documents/GitHub/cyberSecurityQuiz/middleware.ts"],"sourcesContent":["import { NextResponse } from \"next/server\"\nimport type { NextRequest } from \"next/server\"\n\nexport function middleware(req: NextRequest) {\n  const isAdmin = req.nextUrl.pathname.startsWith(\"/admin\")\n  const isLogin = req.nextUrl.pathname === \"/admin/login\"\n\n  if (!isAdmin || isLogin) return NextResponse.next()\n\n  const auth = req.cookies.get(\"admin-auth\")?.value\n  if (auth !== \"true\") {\n    return NextResponse.redirect(new URL(\"/admin/login\", req.url))\n  }\n\n  return NextResponse.next()\n}\n\nexport const config = {\n  matcher: [\"/admin/:path*\"],\n}\n"],"names":[],"mappings":";;;;;;AAAA;AAAA;;AAGO,SAAS,WAAW,GAAgB;IACzC,MAAM,UAAU,IAAI,OAAO,CAAC,QAAQ,CAAC,UAAU,CAAC;IAChD,MAAM,UAAU,IAAI,OAAO,CAAC,QAAQ,KAAK;IAEzC,IAAI,CAAC,WAAW,SAAS,OAAO,4OAAY,CAAC,IAAI;IAEjD,MAAM,OAAO,IAAI,OAAO,CAAC,GAAG,CAAC,eAAe;IAC5C,IAAI,SAAS,QAAQ;QACnB,OAAO,4OAAY,CAAC,QAAQ,CAAC,IAAI,IAAI,gBAAgB,IAAI,GAAG;IAC9D;IAEA,OAAO,4OAAY,CAAC,IAAI;AAC1B;AAEO,MAAM,SAAS;IACpB,SAAS;QAAC;KAAgB;AAC5B"}}]
+}

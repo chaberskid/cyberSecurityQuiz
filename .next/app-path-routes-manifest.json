@@ -1,0 +1,18 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/admin/login/page": "/admin/login",
+  "/admin/page": "/admin",
+  "/admin/quiz/[id]/edit/page": "/admin/quiz/[id]/edit",
+  "/admin/quiz/new/page": "/admin/quiz/new",
+  "/admin/room/[code]/page": "/admin/room/[code]",
+  "/api/admin/login/route": "/api/admin/login",
+  "/api/quizzes/[id]/route": "/api/quizzes/[id]",
+  "/api/quizzes/route": "/api/quizzes",
+  "/api/rooms/[code]/action/route": "/api/rooms/[code]/action",
+  "/api/rooms/[code]/answer/route": "/api/rooms/[code]/answer",
+  "/api/rooms/[code]/events/route": "/api/rooms/[code]/events",
+  "/api/rooms/[code]/join/route": "/api/rooms/[code]/join",
+  "/api/rooms/[code]/route": "/api/rooms/[code]",
+  "/api/rooms/route": "/api/rooms"
+}
