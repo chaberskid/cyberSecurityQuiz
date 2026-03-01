@@ -1,0 +1,18 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/admin/login/page": "app/admin/login/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/admin/quiz/[id]/edit/page": "app/admin/quiz/[id]/edit/page.js",
+  "/admin/quiz/new/page": "app/admin/quiz/new/page.js",
+  "/admin/room/[code]/page": "app/admin/room/[code]/page.js",
+  "/api/admin/login/route": "app/api/admin/login/route.js",
+  "/api/quizzes/[id]/route": "app/api/quizzes/[id]/route.js",
+  "/api/quizzes/route": "app/api/quizzes/route.js",
+  "/api/rooms/[code]/action/route": "app/api/rooms/[code]/action/route.js",
+  "/api/rooms/[code]/answer/route": "app/api/rooms/[code]/answer/route.js",
+  "/api/rooms/[code]/events/route": "app/api/rooms/[code]/events/route.js",
+  "/api/rooms/[code]/join/route": "app/api/rooms/[code]/join/route.js",
+  "/api/rooms/[code]/route": "app/api/rooms/[code]/route.js",
+  "/api/rooms/route": "app/api/rooms/route.js"
+}

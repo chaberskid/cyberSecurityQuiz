@@ -1,0 +1,3 @@
+module.exports=[14637,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(21501);a.n(d("[project]/Documents/GitHub/cyberSecurityQuiz/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},60414,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(21501);a.n(d("[project]/Documents/GitHub/cyberSecurityQuiz/node_modules/next/dist/client/components/builtin/global-error.js"))},72838,a=>{"use strict";a.i(14637);var b=a.i(60414);a.n(b)}];
+
+//# sourceMappingURL=e2cbd_next_dist_client_components_builtin_global-error_07d927e1.js.map
